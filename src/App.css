@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+}
+
+.app {
+  max-width: 720px;
+  margin: 20px auto;
+  padding: 0 16px;
+}
+
+.form {
+  display: flex;
+  gap: 2px;
+}
+
+.form input {
+  flex: 1;
+  min-width: 0;
+  padding: 4px;
+  font-size: 18px;
+}
+
+button {
+  padding: 4px 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.filter {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 16px;
+  padding: 4px;
+  font-size: 18px;
+}
+
+.list li {
+  margin: 4px 0;
+}
